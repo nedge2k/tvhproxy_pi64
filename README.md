@@ -5,7 +5,7 @@ To build the docker image...
 ```
 	cd /tmp
 	mkdir tvhproxy_pi64
-	nano Dockerfile (paste in the contents)
+	nano Dockerfile 	## paste in the contents
 	sudo docker build -t "tvhproxy_pi64:latest" .
 ```
 then to run the container....
